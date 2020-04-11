@@ -3,6 +3,8 @@
 * https://docs.cloudfoundry.org/devguide/sidecars.html
 * https://oauth2-proxy.github.io/oauth2-proxy
 
+![image](https://user-images.githubusercontent.com/106908/79045833-4415f280-7c48-11ea-894b-23e8164bd24c.png)
+
 ## How to deploy
 
 ### Install CF CLI 7
