@@ -30,7 +30,7 @@ rm -rf oauth2_proxy-*
 1. Under Authorization callback URL enter the correct url ie `https://${TARGET_SUBDOMAIN}.${APPS_DOMAIN}/oauth2/callback`
 1. Create an user provided service with information you created above as follows:
 ```
-cf create-user-provided-service github-oauth-app -p '{"github_org": "YOUR-ORG", "github_client_id": "YOUR-CLIENT-ID", "github_client_secret": "YOUR-CLIENT-SECRET"}'
+cf7 create-user-provided-service github-oauth-app -p '{"github_org": "YOUR-ORG", "github_client_id": "YOUR-CLIENT-ID", "github_client_secret": "YOUR-CLIENT-SECRET"}'
 ```
 1. Deploy with following steps:
 ```
